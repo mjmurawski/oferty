@@ -10,7 +10,7 @@ class LoginRequest
     #[Assert\Email(message: 'Email jest nieprawidłowy')]
     public ?string $email = null;
 
-    #[Assert\NotBlank(message: 'Hasło jest wymagane')]
+    #[Assert\NotBlank(message: 'Hasło jest wymagane!')]
     public ?string $password = null;
 }
 
